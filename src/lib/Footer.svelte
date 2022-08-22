@@ -8,7 +8,9 @@
     <div class="socials-prompt">
         <p class="prompt">Follow us!</p>
         <div class="socials">
-            Insta Yt Email
+            <a href="https://instagram.com/atalyx.games"><img src="insta.svg" alt="Instagram"></a>
+            <a href="https://youtube.com/"><img src="youtube.svg" alt="YouTube" style="padding-top: 0.3rem;"></a>
+            <a href="mailto:contact@atalyx.games"><p>@</p></a>
         </div>
     </div>
 </div>
@@ -17,6 +19,18 @@
     *  {
         background-color: rgb(29, 26, 38);
         color: white;
+    }
+
+    .socials {
+        display: grid;
+        grid-template-columns: 3rem 3rem 3rem;
+        padding-left: 50%;
+        transform: translate(-12.5%);
+    }
+
+    .socials * {
+        height: 2rem;
+        font-size: 1.5rem;
     }
 
     a {
