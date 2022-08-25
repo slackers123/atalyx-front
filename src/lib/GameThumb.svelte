@@ -1,8 +1,27 @@
 <script>
-    export let img_src = "amonkstale.png";
-    export let alt_text = "A Monks Tale Logo";
+    import { goto } from "$app/navigation";
+    export let src = "amonkstale.png";
     export let title = "A Monks Tale"
+    export let link = "/games/a-monks-tale";
 </script>
 
-<img src="{img_src}" alt="{alt_text}">
-<h3>{title}</h3>
+<div class="cont" on:click={() => goto(link)}>
+    <img {src} alt="{title} Logo">
+    <h3>{title}</h3>
+</div>
+
+
+<style>
+
+    .cont {
+        width: 100%;
+        margin-right: 1rem;
+    }
+
+    img {
+        width: 100%;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+</style>

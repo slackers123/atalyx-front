@@ -1,6 +1,3 @@
-// src/routes/foo/+server.js
-import { redirect } from '@sveltejs/kit';
-
 /** @type {import('./$types').RequestHandler} */
 export async function GET() {
   return new Response(undefined, {
