@@ -12,12 +12,12 @@ import TeamMember from "$lib/TeamMember.svelte";
         <div class="rows">
             <div class="r1">
                 <TeamMember src={"Toby Kogler.png"} name={"Toby Kogler"} roles={["General Director", "Composer"]}/>
-                <TeamMember src={"Toby Kogler.png"} name={"Toby Kogler"} roles={["General Director", "Composer"]}/>
-                <TeamMember src={"Toby Kogler.png"} name={"Toby Kogler"} roles={["General Director", "Composer"]}/>
+                <TeamMember src={"Aaron Hager.png"} name={"Aaron Hager"} roles={["2D/3D-Artist", "Level-Designer"]}/>
+                <TeamMember src={"Lewin Strobl.png"} name={"Lewin Strobl"} roles={["2D/3D-Artist"]}/>
             </div>
             <div class="r2">
-                <TeamMember src={"Toby Kogler.png"} name={"Toby Kogler"} roles={["General Director", "Composer"]}/>
-                <TeamMember src={"Toby Kogler.png"} name={"Toby Kogler"} roles={["General Director", "Composer"]}/>
+                <TeamMember src={"Boris Kostadinov.png"} name={"Boris Kostadinov"} roles={["Programmer"]}/>
+                <TeamMember src={"Severin Gebesmair.png"} name={"Severin Gebesmair"} roles={["Programmer"]}/>
             </div>
             <img class="award" src="award.png" alt="Award">
         </div>
@@ -53,7 +53,7 @@ import TeamMember from "$lib/TeamMember.svelte";
     }
 
     .team {
-        height: 100%;
+        height: 135vh;
         margin-left: 20vw;
         margin-right: 20vw;
         padding: 5vw;

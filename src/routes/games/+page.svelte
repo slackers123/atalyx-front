@@ -23,9 +23,9 @@ import GameThumb from "$lib/GameThumb.svelte";
         prevEl: ".prev_el"
     }}
     >
-        <SwiperSlide><GameSwipe/></SwiperSlide>
-        <SwiperSlide><GameSwipe/></SwiperSlide>
-        <SwiperSlide><GameSwipe/></SwiperSlide>
+        <SwiperSlide><GameSwipe title="A Monk's Tale" link="/games/a-monks-tale" src="sc1.png"/></SwiperSlide>
+        <SwiperSlide><GameSwipe title="High Up" link="/games/high-up" src="sc1.png"/></SwiperSlide>
+        <SwiperSlide><GameSwipe title="Fatigue" link="/games/fatigue" src="sc1.png"/></SwiperSlide>
     </Swiper>
 </div>
 <div class="games">

@@ -1,5 +1,5 @@
 <script>
-    import GamePage from "$lib/Game-page.svelte";
+    import GamePage from "$lib/GamePage.svelte";
 </script>
 
 

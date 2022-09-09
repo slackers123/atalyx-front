@@ -5,7 +5,7 @@
     <div class="logo">Atalyx Games</div>
     <nav>
         <a href="/home"  style="text-decoration: {$page.routeId == "home" ? "underline" : "none"};">Home</a>
-        <a href="/games" style="text-decoration: {$page.routeId == "games" ? "underline" : "none"};">Games</a>
+        <a href="/games" style="text-decoration: {$page.routeId?.substr(0, 5) == "games" ? "underline" : "none"};">Games</a>
         <a href="/team"  style="text-decoration: {$page.routeId == "team" ? "underline" : "none"};">Team</a>
     </nav>
     <div class="other">
