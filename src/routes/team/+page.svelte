@@ -17,7 +17,7 @@ import TeamMember from "$lib/TeamMember.svelte";
             </div>
             <div class="r2">
                 <TeamMember src={"Boris Kostadinov.png"} name={"Boris Kostadinov"} roles={["Programmer"]}/>
-                <TeamMember src={"Severin Gebesmair.png"} name={"Severin Gebesmair"} roles={["Programmer"]}/>
+                <TeamMember src={"Severin Gebesmair.png"} name={"Severin Gebesmair"} roles={["Programmer", "Sound-Design"]}/>
             </div>
             <img class="award" src="award.png" alt="Award">
         </div>

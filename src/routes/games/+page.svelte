@@ -4,7 +4,7 @@
     import GameSwipe from "$lib/GameSwipe.svelte";
     import "swiper/css";
     import "swiper/css/navigation"
-import GameThumb from "$lib/GameThumb.svelte";
+    import GameThumb from "$lib/GameThumb.svelte";
 
 </script>
 
